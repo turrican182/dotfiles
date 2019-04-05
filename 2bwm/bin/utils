@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# notification daemon
-dunst &
-
-# hide mouse cursor
-unclutter &
