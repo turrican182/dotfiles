@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# compositing
+compton &
+
+# set wallpaper
+feh --bg-scale Images/plant-onion.png &

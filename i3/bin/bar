@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# choose the bar you want, "colors" or "mono"
+BAR="colors"
+
+# launch bar
+polybar $BAR -c ~/.config/polybar/$BAR
