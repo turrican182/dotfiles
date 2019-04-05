@@ -1,0 +1,38 @@
+! @@@  @@@  @@@@@@@   @@@@@@@@  @@@@@@@@   @@@@@@   @@@  @@@  @@@       @@@@@@@   @@@@@@   
+! @@@  @@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@       @@@@@@@  @@@@@@@   
+! @@!  !@@  @@!  @@@  @@!       @@!       @@!  @@@  @@!  @@@  @@!         @@!    !@@       
+! !@!  @!!  !@!  @!@  !@!       !@!       !@!  @!@  !@!  @!@  !@!         !@!    !@!       
+!  !@@!@!   @!@  !@!  @!!!:!    @!!!:!    @!@!@!@!  @!@  !@!  @!!         @!!    !!@@!!    
+!   @!!!    !@!  !!!  !!!!!:    !!!!!:    !!!@!!!!  !@!  !!!  !!!         !!!     !!@!!!   
+!  !: :!!   !!:  !!!  !!:       !!:       !!:  !!!  !!:  !!!  !!:         !!:         !:!  
+! :!:  !:!  :!:  !:!  :!:       :!:       :!:  !:!  :!:  !:!   :!:        :!:        !:!   
+!  ::  :::   :::: ::   :: ::::   ::       ::   :::  ::::: ::   :: ::::     ::    :::: ::   
+!  :   ::   :: :  :   : :: ::    :         :   : :   : :  :   : :: : :     :     :: : :    
+!                                                                                          
+! █▓▒░ color scheme
+#include </home/turrican/sourcerer.Xcolors>
+
+! █▓▒░ fonts
+URxvt*font: -*-cherry-medium-*-*--13-*-*-*-*-*-*-1
+
+URxvt*boldFont: -*-cherry-bold-*-*--13-*-*-*-*-*-*-1
+URxvt*italicFont:
+URxvt*bolditalicFont: 
+
+URxvt*letterSpace: 0
+URxvt*lineSpace: 0
+
+! █▓▒░ interface
+URxvt*scrollBar: false
+URxvt*cursorBlink: false
+URxvt*internalBorder: 5
+URxvt*borderLess:false
+
+! █▓▒░ extensions
+URxvt*perl-ext-common: default,matcher
+URxvt*url-launcher: firefox
+URxvt*matcher.button: 1
+
+! █▓▒░ misc
+URxvt*iso14755: false
+URxvt*iso14755_52: false
