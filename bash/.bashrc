@@ -38,6 +38,11 @@ fi
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+# Add ton of aliases with this file instead of throw them here
+if [ -r ~/.bash_aliases ]; then
+  . ~/.bash_aliases
+fi
+
 # some more ls aliases
 alias ll='ls -l'
 alias la='ls -A'
